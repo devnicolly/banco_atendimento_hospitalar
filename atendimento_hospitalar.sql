@@ -1,4 +1,3 @@
-DROP TABLE IF EXISTS Procedimento, Atendimento, Medico, Especialidade, Paciente, Sala CASCADE;
 
 CREATE TABLE Especialidade (
   id_especialidade SERIAL PRIMARY KEY,
