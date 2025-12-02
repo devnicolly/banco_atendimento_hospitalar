@@ -31,7 +31,7 @@ CREATE TABLE Medico (
   email VARCHAR(100),
   id_especialidade INT,
   FOREIGN KEY (id_especialidade) REFERENCES Especialidade(id_especialidade)
-);
+)
 
 
 CREATE TABLE Atendimento (
